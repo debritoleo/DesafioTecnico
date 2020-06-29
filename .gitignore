@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DesafioTecnico/DesafioTecnico.Calculos.API/bin/Debug/netcoreapp3.1
+/DesafioTecnico/DesafioTecnico.Calculos.API/obj
+/DesafioTecnico/.vs/DesafioTecnico/v16
+/DesafioTecnico/DesafioTecnico.Calculos.Dominio/bin/Debug/netcoreapp3.1
+/DesafioTecnico/DesafioTecnico.Calculos.Dominio/obj
+/DesafioTecnico/DesafioTecnico.Calculos.Test/bin/Debug/netcoreapp3.1
+/DesafioTecnico/DesafioTecnico.Calculos.Test/obj
+/DesafioTecnico/DesafioTecnico.Taxas.API/bin/Debug/netcoreapp3.1
+/DesafioTecnico/DesafioTecnico.Taxas.API/obj
+/DesafioTecnico/DesafioTecnico.Taxas.Dominio/bin/Debug/netcoreapp3.1
+/DesafioTecnico/DesafioTecnico.Taxas.Dominio/obj
+/DesafioTecnico/DesafioTecnico.Taxas.Test/bin/Debug/netcoreapp3.1
+/DesafioTecnico/DesafioTecnico.Taxas.Test/obj
+/.vs
