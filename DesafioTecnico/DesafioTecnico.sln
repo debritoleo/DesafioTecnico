@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Taxas", "Taxas", "{B57D0C14
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Calculos.API", "DesafioTecnico.Calculos.API\DesafioTecnico.Calculos.API.csproj", "{E75F2D42-E2DA-4A44-B9C3-F0E7422F58E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Calculos.Dominio", "DesafioTecnico.Calculos.Dominio\DesafioTecnico.Calculos.Dominio.csproj", "{BCFB2D66-EF2A-45E8-B042-6A9C69C25C9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Calculos.Business", "DesafioTecnico.Calculos.Dominio\DesafioTecnico.Calculos.Business.csproj", "{BCFB2D66-EF2A-45E8-B042-6A9C69C25C9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Calculos.Test", "DesafioTecnico.Calculos.Test\DesafioTecnico.Calculos.Test.csproj", "{B4D8F3A0-4C14-4E70-B345-911239DBE7E5}"
 EndProject
