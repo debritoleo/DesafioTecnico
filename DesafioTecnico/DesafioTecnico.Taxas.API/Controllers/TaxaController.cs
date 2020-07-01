@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DesafioTecnico.Taxas.API.Controllers
 {
-    [Route("[controller]")]
     [ApiController]
     public class TaxaController : ControllerBase
     {

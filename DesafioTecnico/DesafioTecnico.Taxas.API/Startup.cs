@@ -35,8 +35,6 @@ namespace DesafioTecnico.Taxas.API
 
             app.UseRouting();
 
-            app.UseAuthorization();
-
             app.UseGlobalizationConfig();
 
             app.UseEndpoints(endpoints =>
