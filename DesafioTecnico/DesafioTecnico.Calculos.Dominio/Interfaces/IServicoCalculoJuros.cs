@@ -2,6 +2,6 @@
 {
     public interface IServicoCalculoJuros
     {
-        decimal CalcularJuros(double valorInicial, int meses);
+        decimal CalcularJuros(decimal valorInicial, int meses);
     }
 }
