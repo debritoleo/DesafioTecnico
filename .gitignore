@@ -17,3 +17,5 @@
 /DesafioTecnico/DesafioTecnico.Taxas.Test/obj
 /.vs
 /DesafioTecnico/.vs/DesafioTecnico/DesignTimeBuild
+/DesafioTecnico/.vs/DesafioTecnico/config/applicationhost.config
+/DesafioTecnico/DesafioTecnico.Calculos.Test/DesafioTecnico.Calculos.Test.csproj.user
