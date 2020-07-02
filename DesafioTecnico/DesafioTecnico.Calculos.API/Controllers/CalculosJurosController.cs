@@ -27,14 +27,14 @@ namespace DesafioTecnico.Calculos.API.Controllers
             decimal valorCalculado =
                 _servicoCalculoJuros.CalcularJuros(CalculoJurosValidacaoModel.ValorInicial, CalculoJurosValidacaoModel.Meses);
 
-            TruncarValor(valorCalculado);
+            valorCalculado = TruncarValor(valorCalculado);
 
             return Ok(valorCalculado.ToString("0.00"));
         }
 
         private decimal TruncarValor(decimal valor)
         {
-            return Math.Truncate(valor * 100) / 100;
+           return Math.Truncate(valor * 100) / 100;
         }
     }
 }

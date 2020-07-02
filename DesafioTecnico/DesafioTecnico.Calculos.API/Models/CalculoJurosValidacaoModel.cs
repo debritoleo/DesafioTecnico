@@ -20,13 +20,13 @@ namespace DesafioTecnico.Calculos.API.Models
             if (string.IsNullOrEmpty(valorInicial))
                 Erros.Add("Informe o valor inicial");
 
-            if (!decimal.TryParse(valorInicial, out decimal valorInicialValido))
+            if (!decimal.TryParse(valorInicial, out decimal valorInicialValido) && valorInicialValido >= 0)
                 Erros.Add("Informe um número válido para valor inicial");
 
             if (string.IsNullOrEmpty(meses))
                 Erros.Add("Informe o número de meses");
 
-            if (!int.TryParse(meses, out int mesesValido))
+            if (!int.TryParse(meses, out int mesesValido) && mesesValido >= 0)
                 Erros.Add("Meses deve ser um número válido");
             
             if (Valido)
