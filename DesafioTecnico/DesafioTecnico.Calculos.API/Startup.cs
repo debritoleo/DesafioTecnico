@@ -19,6 +19,7 @@ namespace DesafioTecnico.Calculos.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSwaggerConfig();
             services.ResolveDependencies(Configuration);
         }
 
@@ -41,6 +42,8 @@ namespace DesafioTecnico.Calculos.API
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwaggerConfig();
         }
     }
 }
