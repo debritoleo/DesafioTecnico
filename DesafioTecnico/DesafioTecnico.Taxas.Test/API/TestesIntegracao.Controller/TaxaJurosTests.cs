@@ -15,8 +15,6 @@ namespace DesafioTecnico.Taxas.Test.TestesIntegracao.Controller
         [Fact]
         public void TaxaJuros_ChamarTaxa_RetornarSucesso()
         {
-            const string TAXA_JUROS_DEFAULT = "0,01";
-
             _servicoTaxa = new Mock<IServicoTaxa>();
             _taxaController = new TaxaController(_servicoTaxa.Object);
 
@@ -25,9 +23,9 @@ namespace DesafioTecnico.Taxas.Test.TestesIntegracao.Controller
             _servicoTaxa.Setup(x => x.ObterTaxa()).Returns(taxa);
 
 
-            var resposta = _taxaController.ObterTaxaJuros();
+            var taxaJuros = _taxaController.ObterTaxaJuros();
 
-            resposta.Should().Be(TAXA_JUROS_DEFAULT);
+            taxaJuros.Should().Be("0,01");
         }
     }
 }
