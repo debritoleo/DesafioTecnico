@@ -28,10 +28,7 @@ namespace DesafioTecnico.Calculos.API.Models
 
             if (!int.TryParse(meses, out int mesesValido))
                 Erros.Add("Meses deve ser um número válido");
-
-            if (mesesValido > 12 || mesesValido < 1)
-                Erros.Add("Meses deve ser um número válido");
-
+            
             if (Valido)
             {
                 ValorInicial = valorInicialValido;
