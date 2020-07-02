@@ -17,7 +17,7 @@ namespace DesafioTecnico.Calculos.API.Configuracoes
             app.UseSwagger();
             app.UseSwaggerUI(s =>
             {
-                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Desafio Técnico - Taxas API");
+                s.SwaggerEndpoint("/swagger/v1/swagger.json", "Desafio Técnico - Cálculo API");
             });
             return app;
         }
