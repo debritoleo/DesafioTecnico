@@ -1,3 +1,4 @@
+using DesafioTecnico.Calculos.API.Configuracoes;
 using DesafioTecnico.Taxas.API.Configuracoes;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -20,6 +21,7 @@ namespace DesafioTecnico.Taxas.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSwaggerConfig();
             services.ResolveDependencies();
         }
 
@@ -41,6 +43,8 @@ namespace DesafioTecnico.Taxas.API
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwaggerConfig();
         }
     }
 }
