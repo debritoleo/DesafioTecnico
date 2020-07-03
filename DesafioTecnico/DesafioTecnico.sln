@@ -7,17 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculos", "Calculos", "{C0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Taxas", "Taxas", "{B57D0C14-F460-41F3-93DD-3BE9C0D1E821}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Calculos.API", "DesafioTecnico.Calculos.API\DesafioTecnico.Calculos.API.csproj", "{E75F2D42-E2DA-4A44-B9C3-F0E7422F58E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Calculos.API", "DesafioTecnico.Calculos.API\DesafioTecnico.Calculos.API.csproj", "{E75F2D42-E2DA-4A44-B9C3-F0E7422F58E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Calculos.Business", "DesafioTecnico.Calculos.Dominio\DesafioTecnico.Calculos.Business.csproj", "{BCFB2D66-EF2A-45E8-B042-6A9C69C25C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Calculos.Business", "DesafioTecnico.Calculos.Dominio\DesafioTecnico.Calculos.Business.csproj", "{BCFB2D66-EF2A-45E8-B042-6A9C69C25C9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Calculos.Test", "DesafioTecnico.Calculos.Test\DesafioTecnico.Calculos.Test.csproj", "{B4D8F3A0-4C14-4E70-B345-911239DBE7E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Calculos.Test", "DesafioTecnico.Calculos.Test\DesafioTecnico.Calculos.Test.csproj", "{B4D8F3A0-4C14-4E70-B345-911239DBE7E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Taxas.API", "DesafioTecnico.Taxas.API\DesafioTecnico.Taxas.API.csproj", "{BD2791BD-E6DC-46D6-9F3A-F06DD18E6441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Taxas.API", "DesafioTecnico.Taxas.API\DesafioTecnico.Taxas.API.csproj", "{BD2791BD-E6DC-46D6-9F3A-F06DD18E6441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Taxas.Business", "DesafioTecnico.Taxas.Dominio\DesafioTecnico.Taxas.Business.csproj", "{425DB758-08A6-40C8-9B31-FCA05A05DE56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Taxas.Business", "DesafioTecnico.Taxas.Dominio\DesafioTecnico.Taxas.Business.csproj", "{425DB758-08A6-40C8-9B31-FCA05A05DE56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesafioTecnico.Taxas.Test", "DesafioTecnico.Taxas.Test\DesafioTecnico.Taxas.Test.csproj", "{18BD9F40-6A49-4125-83F3-B336DD966A9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesafioTecnico.Taxas.Test", "DesafioTecnico.Taxas.Test\DesafioTecnico.Taxas.Test.csproj", "{18BD9F40-6A49-4125-83F3-B336DD966A9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
