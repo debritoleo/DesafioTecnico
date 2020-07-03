@@ -5,7 +5,7 @@ using FluentAssertions;
 using Moq;
 using Xunit;
 
-namespace DesafioTecnico.Taxas.Test.TestesIntegracao.Controller
+namespace DesafioTecnico.Taxas.Test.Controller
 {
     public class TaxaJurosTests
     {
